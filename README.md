@@ -1,4 +1,4 @@
-# Cub3D – Wolfenstein-like Raycasting Game
+# Cub3D – Raycasting Game
 
 ![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)
 ![Language: C](https://img.shields.io/badge/language-C-blue.svg)
