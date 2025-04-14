@@ -21,7 +21,7 @@ Careful attention was given to **error handling**, **project architecture**, and
 
 [![Cub3D Demo](https://img.youtube.com/vi/3mGU6aDea5c/0.jpg)](https://www.youtube.com/watch?v=3mGU6aDea5c)&#8203;
 
-Click the image above to watch a short demo of the game in action!
+Click the image above to watch a short demo of the game in action on Youtube!
 
 ---
 
