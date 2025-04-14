@@ -6,7 +6,7 @@
 /*   By: nlouis <nlouis@student.hive.fi>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/10 14:51:01 by nlouis            #+#    #+#             */
-/*   Updated: 2025/04/10 10:48:49 by nlouis           ###   ########.fr       */
+/*   Updated: 2025/04/14 09:31:55 by nlouis           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,7 +61,7 @@ static void init_fire_spirit(t_game* game, t_npc* npc, t_dpoint pos)
 	npc->hit_duration = 2.0;
 	npc->state        = PATROL;
 	npc->pos          = (t_dpoint){pos.x + 0.5, pos.y + 0.5};
-	npc->speed        = 3.0;
+	npc->speed        = 2.0;
 	init_AStar(game, npc);
 	generate_npc_waypoints(npc, game);
 	init_fire_spirit_sprites(npc);

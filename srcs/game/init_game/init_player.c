@@ -6,7 +6,7 @@
 /*   By: nlouis <nlouis@student.hive.fi>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/17 20:38:34 by nlouis            #+#    #+#             */
-/*   Updated: 2025/04/10 09:35:02 by nlouis           ###   ########.fr       */
+/*   Updated: 2025/04/14 09:31:30 by nlouis           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -89,8 +89,8 @@ void init_player(t_game* game, t_player* player)
 {
 	player->pos.x += 0.5;
 	player->pos.y += 0.5;
-	player->rot_speed  = 5;
-	player->move_speed = 3;
+	player->rot_speed  = 4;
+	player->move_speed = 2;
 	set_player_facing_angle(player);
 	set_player_direction_and_view_plane(player);
 	init_splash_animation(game, player, &player->sprite);

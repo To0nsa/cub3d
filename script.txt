@@ -1,0 +1,48 @@
+Hi, and welcome to our Cub3D demo!
+
+Right from the start, you can see several features of the rendering system.
+
+The background floor and ceiling is drawn once into a pre-rendered image
+and is reused each frame for performance.
+
+Then comes the raycasting engine, rendering textured walls
+with correct depth and perspective.
+
+You'll also notice entities like NPCs and items. These are
+depth-sorted and projected in the correct order so they overlap correctly.
+
+For the kittens, the program dynamically chooses the correct animation
+frame based on both the player's orientation and the NPC's
+movement direction, giving a smooth and reactive feeling.
+
+Drawing pixel-by-pixel using MiniLibX's built-in function
+is quite demanding, so instead of calling their
+put_pixel function for every pixel, we are writing the color values directly
+into the image buffer.
+
+This allows much better performance since it avoids function call overhead.
+
+If you're not careful, a fireball can burn you. It actively chases the player,
+calculating the shortest path in real time. But you can stop
+it by filling a bucket and splashing it! The fireball turns into a
+friendly NPC after the hit, showing off some light puzzle mechanics
+and dynamic state changes.
+
+Then we have NPC dialogues and storyline that are dynamic too,
+based on what the player sees or does. This means each player can have a slightly
+different experience, making the mini-game feel more alive and responsive.
+
+NPC moves are managed by a A* algorithm. The patrol system
+uses randomly generated waypoints. The NPCs can also follow the player 
+when it fits the narrative, they're smart enough to open doors
+if they are on their path.
+
+Another cool part of the project is a generic raycast utility
+function that lets any entity or the player check what's in its surroundings.
+Combined with is_facing_target function, it enables smooth and realistic
+interactions between player, entities and the environment.
+
+We really enjoyed working on this project, building a full game
+in C from almost nothing.
+Thanks for watching!
+

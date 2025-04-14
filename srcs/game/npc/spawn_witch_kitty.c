@@ -6,7 +6,7 @@
 /*   By: nlouis <nlouis@student.hive.fi>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/28 00:23:22 by nlouis            #+#    #+#             */
-/*   Updated: 2025/04/10 10:48:49 by nlouis           ###   ########.fr       */
+/*   Updated: 2025/04/14 09:32:07 by nlouis           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -93,7 +93,7 @@ static void init_witch_kitty(t_game* game, t_npc* npc, t_dpoint pos)
 	npc->name            = "witch kitty";
 	npc->pos             = (t_dpoint){pos.x + 0.5, pos.y + 0.5};
 	npc->speed           = 1.2;
-	npc->following_speed = 2.5;
+	npc->following_speed = 1.8;
 	init_AStar(game, npc);
 	generate_npc_waypoints(npc, game);
 	init_witch_kitty_sprites(npc);
