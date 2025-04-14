@@ -157,7 +157,7 @@ You are free to use, modify, and distribute this code for academic, personal, or
 Developpers:
 
 - 💻 GitHub: [github.com/to0nsa](https://github.com/to0nsa)
-- 💻 GitHub: [github.com/to0nsa](https://github.com/rinatiamaev)
+- 💻 GitHub: [github.com/rinatiamaev](https://github.com/rinatiamaev)
 
 If you have any questions, suggestions, or feedback, feel free to reach out:
 
